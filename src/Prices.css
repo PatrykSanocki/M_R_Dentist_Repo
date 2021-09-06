@@ -1,0 +1,81 @@
+.news-section {
+  height: 100px;
+  background-color: #e5dcc5;
+}
+.news-section p {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 42px;
+  line-height: 100px;
+}
+img {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0;
+}
+table {
+  width: 100%;
+  margin-bottom: 40px;
+  border-spacing: 5px 5px;
+  color: #e5dcc5;
+  font-size: 14pt;
+}
+table th {
+  background-color: #2d2d2a;
+  font-style: italic;
+}
+table:not(:first-child) th {
+  background-color: transparent;
+}
+table th:first {
+  width: 50%;
+}
+table th:nth-child(2) {
+  width: 25%;
+}
+table th:nth-child(3) {
+  width: 25%;
+}
+table tr:not(:first-child) {
+  padding-bottom: 5px;
+}
+table tr:not(:first-child) td:not(:first-child) {
+  text-align: center;
+}
+table tr:not(:first-child):not(:last-child) td {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e5dcc5;
+}
+p.table-service {
+  color: #e5dcc5;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+div.card {
+  margin: 15px;
+  text-align: center;
+  color: #e5dcc5;
+}
+div.card p.card-title {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12pt;
+}
+div.card button a {
+  text-decoration: none;
+  color: #2d2d2a;
+  text-transform: uppercase;
+}
+button.more {
+  margin: 0 auto 10px 0;
+  padding: 5px 0;
+  width: 150px;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #e5dcc5;
+  border: none;
+  border-radius: 15px;
+}

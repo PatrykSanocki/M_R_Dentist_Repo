@@ -1,0 +1,39 @@
+.news-section {
+  height: 100px;
+  background-color: #e5dcc5;
+}
+.news-section p {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 42px;
+  line-height: 100px;
+}
+img {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0;
+}
+
+div.card {
+  margin: 15px;
+  text-align: center;
+}
+div.card p.card-title {
+  color: #e5dcc5;
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+div.card p.card-text,
+p.card-content {
+  text-align: justify;
+  text-indent: 20px;
+  color: #e5dcc5;
+}
+div.card p.card-dentist {
+  color: #e5dcc5;
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+}
